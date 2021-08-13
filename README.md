@@ -5,3 +5,5 @@
 *  ---src_img_dir
 *  ---new_img_dir
 *  ---cut_pad.py
+
+'TODO Encapsulate functions into classes
