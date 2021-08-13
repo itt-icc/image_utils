@@ -6,4 +6,4 @@
 *  ---new_img_dir
 *  ---cut_pad.py
 
-'TODO Encapsulate functions into classes'
+**TODO Encapsulate functions into classes**
