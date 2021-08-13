@@ -12,7 +12,7 @@ class YOLO_VOCConvert:
         self.txts_path = txts_path   
         self.xmls_path = xmls_path   
         self.imgs_path = imgs_path   
-        self.classes = ['Unripe','Ripe']
+        self.classes = []
 
 
     def _search_all_classes(self, writer=False):
