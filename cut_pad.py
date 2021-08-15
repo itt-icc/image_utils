@@ -162,7 +162,7 @@ def makexml(src_img_dir,new_img_dir,src_txt_dir,src_xml_dir):
             img_path = src_img_dir + '\\' + img + '.jpg'
             xml_path = src_txt_dir + '/%s.xml' % (img)
             im = Image.open(img_path)
-            width, height = im.size
+            width, height = (480,640)
             padimg,gt, cls_id = cut_box(img_path, xml_path)
 
             cv2.imwrite(new_img_dir + '/' + img + '.jpg', padimg)
