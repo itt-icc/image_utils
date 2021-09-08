@@ -7,3 +7,7 @@
 *  ---cut_pad.py
 
 **TODO Encapsulate functions into classes**
+
+# aug.py
+## image augmentation with voc xml file
+
